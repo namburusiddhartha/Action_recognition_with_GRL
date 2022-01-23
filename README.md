@@ -56,7 +56,11 @@ pip3 install -v -e .
 ```
 
 #### To train
+```
 python3 train.py i3d_nl_embedded_gaussian_r50_32x2x1_100e_kinetics400_rgb.py (config file) --work-dir /home/snamburu/siddhartha/actrecog/RoCoG_data_prep/new/ --gpu-ids 0
+```
 
 #### To test
+```
 python3 test.py i3d_nl_embedded_gaussian_r50_32x2x1_100e_kinetics400_rgb.py (config file) /grl2/latest.pth (pth file generated) --eval top_k_accuracy --out resultgrl.pkl
+```

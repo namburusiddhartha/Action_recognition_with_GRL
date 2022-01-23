@@ -1,3 +1,5 @@
+# Action_recognition_with_GRL
+
 This repo has implements I3D referencing mmaction2, and localizes activity in a video. The dataset contains real and synthetic videos comprinsing of seven actions.
 
 ![image](https://user-images.githubusercontent.com/68541043/150665120-765a790c-8344-4e42-9cde-3ecd41f0131e.png)
@@ -10,12 +12,12 @@ Additionally, for adapting domain from synthetic to real, concept of gradient re
 
 Reference:- https://arxiv.org/pdf/1409.7495.pdf
 
-#### Dataset tested on
+## Dataset tested on
 
-#### mmaction2 reference 
+## mmaction2 reference 
 https://github.com/open-mmlab/mmaction2
 
-#### I3D(non-local) reference
+## I3D(non-local) reference
 @inproceedings{inproceedings,
   author = {Carreira, J. and Zisserman, Andrew},
   year = {2017},
@@ -32,7 +34,7 @@ https://github.com/open-mmlab/mmaction2
   year =     {2018}
 }
 
-#### Results 
+## Results 
 
 When combination of synthetic data and real data is used for training and a real dataset is used for testing,
 
